@@ -139,6 +139,8 @@ affinity: {}
 priorityClassName: ""
 
 updateStrategy: RollingUpdate
+# Only used when updateStrategy is set to "RollingUpdate"
+MaxUnavalaible: 1
 
 # Override various naming aspects of this chart
 # Only edit these if you know what you're doing
